@@ -75,14 +75,6 @@ public class QuickSort {
 
     private int partition(int[] array){
         int inputSize = array.length;
-        if (inputSize == 2){
-            if (array[0] < array[1]){
-                return 0;
-            } else {
-                swap(array,0,1);
-                return 1;
-            }
-        }
         int pivot = array[0];
         int i = 1;
         for (int j = 1; j < inputSize; j++){
