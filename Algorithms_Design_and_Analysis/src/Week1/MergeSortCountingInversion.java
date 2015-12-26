@@ -87,7 +87,7 @@ public class MergeSortCountingInversion {
 
     private long numInversion = 0;
 
-    private static final String FILE_NAME = "E:/Dropbox/GitHub/CS161/Algorithms_Design_and_Analysis/src/Week1/IntegerArray.txt";
+    private static final String FILE_NAME = "E:/Dropbox/GitHub/Algorithms_Design_and_Analysis/Algorithms_Design_and_Analysis/src/Week1/IntegerArray.txt";
 }
 
 
