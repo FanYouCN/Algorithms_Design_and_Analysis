@@ -85,6 +85,7 @@ public class QuickSort {
         swap(array,0,i - 1);
         return i - 1;
     }
+
     private void swap(int[] array, int indexI,int indexJ){
         if (indexI != indexJ){
             int temp = array[indexI];
@@ -92,9 +93,6 @@ public class QuickSort {
             array[indexJ] = temp;
         }
     }
-
-
-
 
     private static final String FILE_NAME = "E:/Dropbox/GitHub/Algorithms_Design_and_Analysis/Algorithms_Design_and_Analysis/src/Week2/QuickSort.txt";
 }

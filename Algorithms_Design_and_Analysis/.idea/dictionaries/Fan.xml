@@ -2,6 +2,9 @@
   <dictionary name="Fan">
     <words>
       <w>dropbox</w>
+      <w>iter</w>
+      <w>karger</w>
+      <w>rgen</w>
     </words>
   </dictionary>
 </component>
