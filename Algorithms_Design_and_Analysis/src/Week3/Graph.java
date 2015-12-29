@@ -83,6 +83,12 @@ public class Graph{
         }
     }
 
+
+
+    public  Map<Integer,Vertex> getVertices() {
+        return vertices;
+    }
+
     private Map<Integer,Vertex> vertices = new HashMap<Integer,Vertex>();
     private ArrayList<Edge> edgesList = new ArrayList<Edge>();
     private Random rgen = new Random();

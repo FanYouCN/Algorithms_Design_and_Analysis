@@ -46,7 +46,7 @@ public class QuickSort {
         return allNumbersArray;
     }
 
-    private int quickSort(int[] intArray){
+    public int quickSort(int[] intArray){
         int inputSize = intArray.length;
         int numSwap = inputSize - 1;
         if (inputSize != 1) {
